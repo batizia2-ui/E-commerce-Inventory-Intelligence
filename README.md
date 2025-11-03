@@ -1,4 +1,4 @@
-# 🐍 Analizador de Competencia SEO y Precios para E-commerce
+ # 🐍 Analizador de Competencia SEO y Precios para E-commerce
 
 ## 💡 Propósito del Proyecto
 Este script de Python automatiza la recopilación de datos de la competencia (Web Scraping) para obtener información clave de SEO y E-commerce. Está diseñado para dueños de negocios (como tiendas de laptops o Etsy) y analistas que necesitan **tomar decisiones rápidas de pricing y optimización de producto.**
