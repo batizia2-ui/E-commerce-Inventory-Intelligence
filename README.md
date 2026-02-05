@@ -1,21 +1,23 @@
-## Analizador de Datos para E-commerce
+# E-commerce Inventory & Profitability Intelligence 📊
+*Data-driven tool for inventory optimization and pricing strategy.*
 
-### Objetivo
-Analizar precios, competencia y performance de productos para apoyar
-decisiones de negocio en e-commerce.
+## 📌 Business Context
+As a professional with 8 years of experience in technology retail and sales management, I developed this tool to solve a critical business problem: **transforming raw sales data into actionable inventory decisions.** This project automates the identification of critical stock levels and high-margin opportunities to protect company profitability.
 
-### Qué hace el proyecto
-- Limpieza y análisis de datos con Python (Pandas)
-- Análisis de precios y competencia
-- Exploración de métricas relevantes para rentabilidad y mercado
-- Generación de insights accionables para pricing y optimización comercial
+## 🛠️ Tech Stack
+* **Python (Pandas):** Core data manipulation and exploratory analysis.
+* **SQL:** Data aggregation, filtering, and reporting.
+* **Excel & Power BI:** Visualization of KPIs and inventory alerts.
 
-### Tecnologías
-- Python
-- Pandas
-- Matplotlib
-- CSV
+## 🚀 Key Business Features
+1. **Critical Inventory Detection:** Automatically identifies SKUs with stock < 20 units to prevent stockouts in high-demand periods.
+2. **Profitability Analysis:** Segments products by Gross Margin to prioritize investment in top-performing categories (e.g., Gaming Laptops).
+3. **Automated Cleaning:** Standardizes product categories and pricing formats to ensure data integrity for executive reporting.
 
-### Resultado
-Identificación de oportunidades de optimización en precios y desempeño de
-productos a partir del análisis de datos.
+## 📈 Insights Example
+Using this tool, I identified that while **Accessories** have the highest margin percentage, **Gaming Laptops** drive the majority of the total cash flow. This insight allows for a more balanced and strategic inventory investment.
+
+## 📂 Project Structure
+* `data/`: Raw and cleaned datasets.
+* `scripts/`: Python scripts for data processing.
+* `notebooks/`: Exploratory Data Analysis (EDA).
