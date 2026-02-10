@@ -4,9 +4,9 @@ import pandas as pd
 df = pd.read_csv("orders_dataset.csv")
 
 # 2. Calculate Inventory Days
-# This tells us how many days of stock we have on average
-avg_stock = df['cantidad'].mean()
-daily_sales = df.groupby('producto')['cantidad'].sum().mean()
+# CORRECCIÓN: Usamos 'inventory' y 'quantity' (como en tu CSV)
+avg_stock = df['inventory'].mean()
+daily_sales = df.groupby('product')['quantity'].sum().mean()
 
 inventory_days = avg_stock / daily_sales
 
