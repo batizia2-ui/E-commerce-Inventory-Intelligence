@@ -3,17 +3,22 @@ import pandas as pd
 # 1. Load Data
 df = pd.read_csv("orders_dataset.csv")
 
-# 2. Calculate Margins
-# Gross Profit = Price - Cost
-df['unit_profit'] = df['precio'] - df['costo']
+# 2. Simulate Profitability
+# Assuming a 30% profit margin for Electronics and 25% for Computing
+def calculate_margin(row):
+    if row['category'] == 'Electronics':
+        return row['total_sales'] * 0.30
+    else:
+        return row['total_sales'] * 0.25
 
-# Margin % = (Profit / Price) * 100
-df['margin_percentage'] = (df['unit_profit'] / df['precio']) * 100
+df['estimated_profit'] = df.apply(calculate_margin, axis=1)
 
-# 3. Analyze by Category
-# Identify which product categories yield the highest return
-category_profitability = df.groupby('categoria')['margin_percentage'].mean().sort_values(ascending=False)
+# 3. Profit by Category
+category_profit = df.groupby('category')['estimated_profit'].sum()
 
-# 4. Output
-print("=== Average Profit Margin by Category ===")
-print(category_profitability)
+print("=== Estimated Profit by Category ===")
+print(category_profit.apply(lambda x: f"${x:,.2f}"))
+
+# 4. Total Profitability Margin
+total_margin = (df['estimated_profit'].sum() / df['total_sales'].sum()) * 100
+print(f"\nOverall Profit Margin: {total_margin:.2f}%")
