@@ -3,13 +3,17 @@ import pandas as pd
 # 1. Load Data
 df = pd.read_csv("orders_dataset.csv")
 
-# 2. Calculate Inventory Days
-# CORRECCIÓN: Usamos 'inventory' y 'quantity' (como en tu CSV)
-avg_stock = df['inventory'].mean()
-daily_sales = df.groupby('product')['quantity'].sum().mean()
+# 2. Calculate Average Inventory and Cost of Goods Sold (COGS)
+avg_inventory_value = df.groupby('product')['unit_price'].mean() * 50 
+cogs = df.groupby('product')['unit_price'].sum()
 
-inventory_days = avg_stock / daily_sales
+# 3. Calculate Inventory Turnover Ratio
+inventory_turnover = cogs / avg_inventory_value
 
-# 4. Output
-print("=== Inventory Days Analysis ===")
-print(f"Average days to turnover stock: {inventory_days:.2f} days")
+# 4. Calculate Days Sales of Inventory (DSI)
+# Formula: 365 / Inventory Turnover
+inventory_days = 365 / inventory_turnover
+
+# 5. Output Results
+print("=== Days Sales of Inventory (DSI) ===")
+print(inventory_days.sort_values(ascending=False))
