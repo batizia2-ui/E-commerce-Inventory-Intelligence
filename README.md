@@ -7,8 +7,9 @@ After nearly a decade managing technology sales and inventory on the floor, I am
 ## 📊 Executive Dashboard Preview
 *Visualizing the pulse of the business.* 
 
-![Dashboard Overview](dashboard_overview.png) 
-*(Note: Replace with your actual image filename if different)* 
+![Dashboard Overview](dashboard_overview.png)
+![Dashboard Details](dashboard_details.png)
+![Dashboard Trends](dashboard_trends.png)
 
 ### Key Insights:
 - **Revenue Performance**: Achieved a total revenue of **$10,955** across key laptop models.
