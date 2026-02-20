@@ -2,7 +2,7 @@
 
 ## 📌 Professional Context
 **Bridging 8 years of Tech Retail expertise with Data Analytics.** 
-After nearly a decade managing technology sales and inventory on the floor, I am now automating the business logic I used daily. [cite: 2025-10-21] This project transforms raw e-commerce data into actionable insights for stock management and profitability. 
+After nearly a decade managing technology sales and inventory on the floor, I am now automating the business logic I used daily. This project transforms raw e-commerce data into actionable insights for stock management and profitability. 
 
 ## 📊 Executive Dashboard Preview
 *Visualizing the pulse of the business.* 
