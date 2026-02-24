@@ -31,4 +31,5 @@ After nearly a decade managing technology sales and inventory on the floor, I am
    - Run `python kpi_critical_stock.py` for inventory alerts.
 
 ## 🔍 Data Validation (SQL)
-*I use SQL to ensure data integrity. Example queries can be found in the `/sql_queries` folder.* 
+I use SQL to ensure data integrity and cross-verify metrics against Python outputs.
+* [View SQL Validation Queries](./sql_queries/validation_queries.sql)
