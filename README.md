@@ -1,35 +1,24 @@
-# 💻 E-commerce Inventory Intelligence: Laptop Stock Optimization
+# E-commerce Inventory Intelligence 💻📊
 
-## 📌 Professional Context
-**Bridging 8 years of Tech Retail expertise with Data Analytics.** 
-After nearly a decade managing technology sales and inventory on the floor, I am now automating the business logic I used daily. This project transforms raw e-commerce data into actionable insights for stock management and profitability. 
+## Project Overview
+This executive dashboard analyzes sales and inventory performance for a laptop retailer. The goal was to transform raw data into actionable insights for financial and inventory decision-making.
 
-## 📊 Executive Dashboard Preview
-*Visualizing the pulse of the business.* 
+## Key Insights
+* **Total Revenue:** $10,955 USD
+* **Gross Margin:** 31% average
+* **Top Performer:** The **Gaming Laptop** leads sales with $3,395 in revenue
+* **Optimization Opportunity:** The 24" Monitor represents the lowest revenue impact.
 
-![Dashboard Overview](dashboard_overview.png)
-![Dashboard Details](dashboard_details.png)
-![Dashboard Trends](dashboard_trends.png)
+## Visual Analysis
+### 1. Executive Overview
+![Overview](./dashboard_overview.png)
 
-### Key Insights:
-- **Revenue Performance**: Achieved a total revenue of **$10,955** across key laptop models.
-- **Profitability**: Maintained a **31% Gross Margin** by optimizing cost structures.
-- **Inventory Health**: Real-time tracking of **Critical Stock** levels to prevent stockouts (Lead Time: 7 days).
+### 2. Product Details & Inventory
+![Details](./dashboard_details.png)
 
-## 🛠️ Tech Stack & Methodology
-- **Python (Pandas)**: Core engine for KPI calculation and data cleaning.
-- **SQL**: Used for data validation and cross-checking metrics against Python outputs. 
-- **Power BI**: Advanced visualization and executive reporting. 
+### 3. Revenue Trend (Corrected)
+![Revenue Trend](./dashboard_trends.png)
 
-## 🚀 How to Run
-1. **Clone the repository**:
-   `git clone https://github.com/batizia2-ui/E-commerce-Inventory-Intelligence.git`
-2. **Install dependencies**:
-   `pip install pandas`
-3. **Execute Analysis**:
-   - Run `python kpi_profit_margin_analysis.py` for margin reports.
-   - Run `python kpi_critical_stock.py` for inventory alerts.
-
-## 🔍 Data Validation (SQL)
-I use SQL to ensure data integrity and cross-verify metrics against Python outputs.
-* [View SQL Validation Queries](./sql_queries/validation_queries.sql)
+## Tech Stack
+* **Power BI:** Data modeling, DAX measures, and advanced visualization.
+* **CSV / VS Code:** Data management and version control.
