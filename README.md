@@ -1,24 +1,22 @@
-# E-commerce Inventory Intelligence 💻📊
+# E-commerce Inventory Intelligence 📊
 
-## Project Overview
-This executive dashboard analyzes sales and inventory performance for a laptop retailer. The goal was to transform raw data into actionable insights for financial and inventory decision-making.
+## 📋 Project Overview
+This project analyzes sales performance and profit margins for an e-commerce inventory. The goal is to identify top-performing products and validate financial data integrity.
 
-## Key Insights
-* **Total Revenue:** $10,955 USD
-* **Gross Margin:** 31% average
-* **Top Performer:** The **Gaming Laptop** leads sales with $3,395 in revenue
-* **Optimization Opportunity:** The 24" Monitor represents the lowest revenue impact.
+## 🛠️ Tech Stack
+* **Python (Pandas)**: Data cleaning and analysis.
+* **Jupyter Notebook**: Interactive workflow documentation.
+* **SQL**: Result validation from the database.
+* **Git/GitHub**: Version control.
 
-## Visual Analysis
-### 1. Executive Overview
-![Overview](./dashboard_overview.png)
+## 🚀 Key Insights
+* **Total Revenue**: $10,955.49 USD
+* **Global Margin**: 12.14%
+* **Top-Selling Product**: Gaming Laptop 💻
 
-### 2. Product Details & Inventory
-![Details](./dashboard_details.png)
-
-### 3. Revenue Trend (Corrected)
-![Revenue Trend](./dashboard_trends.png)
-
-## Tech Stack
-* **Power BI:** Data modeling, DAX measures, and advanced visualization.
-* **CSV / VS Code:** Data management and version control.
+## 📁 Repository Structure
+* `analysis_workflow.ipynb`: Main notebook with sales analysis.
+* `orders_dataset.csv`: Source data.
+* `sql_queries/`: Validation scripts.
+## 💡 Why This Project?
+As an independent hardware reseller specializing in **Gamer and Workstation laptops**, I developed this analysis to bridge the gap between sales operations and data-driven inventory management. My background in high-performance hardware helps me interpret these metrics with a focus on market value and technical specifications.
