@@ -13,6 +13,17 @@ This project analyzes sales performance and profit margins for an e-commerce inv
 * **Total Revenue**: $10,955.49 USD
 * **Global Margin**: 12.14%
 * **Top-Selling Product**: Gaming Laptop 💻
+## 📊 Data Visualization
+Below are the visual representations of the inventory analysis:
+
+### Sales Overview
+![Sales Overview](dashboard_overview.png)
+
+### Performance Trends
+![Performance Trends](dashboard_trends.png)
+
+### Detailed Inventory Analysis
+![Inventory Details](dashboard_details.png)
 
 ## 📁 Repository Structure
 * `analysis_workflow.ipynb`: Main notebook with sales analysis.
