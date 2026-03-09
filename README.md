@@ -1,33 +1,30 @@
-# E-commerce Inventory Intelligence 📊
+# E-commerce Inventory Intelligence
 
-## 📋 Project Overview
-This project analyzes sales performance and profit margins for an e-commerce inventory. The goal is to identify top-performing products and validate financial data integrity.
+## 📊 Project Overview
+This project focuses on analyzing sales and inventory data for a technology-based e-commerce business specializing in laptops and workstations. The goal is to optimize stock management and identify high-margin products.
 
 ## 🛠️ Tech Stack
-* **Python (Pandas)**: Data cleaning and analysis.
-* **Jupyter Notebook**: Interactive workflow documentation.
-* **SQL**: Result validation from the database.
-* **Git/GitHub**: Version control.
+* **Language:** Python 3.x
+* **Libraries:** Pandas, Matplotlib, Seaborn
+* **Database:** SQLite / CSV Datasets
 
-## 🚀 Key Insights
-* **Total Revenue**: $10,955.49 USD
-* **Global Margin**: 12.14%
-* **Top-Selling Product**: Gaming Laptop 💻
-## 📊 Data Visualization
-Below are the visual representations of the inventory analysis:
+## 📈 Key Business Metrics (KPIs)
+* **Total Revenue:** Total sales volume in USD.
+* **Gross Profit Margin:** Efficiency of pricing vs. cost.
+* **Inventory Turnover:** Analysis of stock movement.
 
-### Sales Overview
-![Sales Overview](dashboard_overview.png)
+## 📂 Project Structure
+* `data/`: Raw datasets (CSV).
+* `notebooks/`: Detailed data analysis and visualization.
+* `scripts/`: Python automation for KPI calculation.
+* `images/`: Dashboard previews and charts.
+## 🖼️ Visual Insights
+### Executive Dashboard Overview
+![Inventory Overview](images/dashboard_overview.png)
 
-### Performance Trends
-![Performance Trends](dashboard_trends.png)
+### Sales Trends & Stock Analysis
+![Sales Trends](images/dashboard_trends.png)
+![Critical Stock](images/dashboard_details.png)
 
-### Detailed Inventory Analysis
-![Inventory Details](dashboard_details.png)
-
-## 📁 Repository Structure
-* `analysis_workflow.ipynb`: Main notebook with sales analysis.
-* `orders_dataset.csv`: Source data.
-* `sql_queries/`: Validation scripts.
-## 💡 Why This Project?
-As an independent hardware reseller specializing in **Gamer and Workstation laptops**, I developed this analysis to bridge the gap between sales operations and data-driven inventory management. My background in high-performance hardware helps me interpret these metrics with a focus on market value and technical specifications.
+### Project Preview
+![Project Preview](images/inventory_dashboard_preview.png)
