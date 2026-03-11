@@ -4,11 +4,10 @@
 
 This project analyzes sales and inventory data from a technology-focused e-commerce business specializing in laptops and workstations.
 
-The goal is to identify profit drivers, optimize pricing strategies, and detect inventory risks using data analysis tools.
+The objective is to identify **profit drivers, pricing opportunities, and inventory risks** using data analysis tools.
 
-This project demonstrates how data can support business decisions in inventory management, profitability optimization, and product strategy.
+This project demonstrates how data can support **business decisions in inventory optimization, pricing strategy, and profitability improvement.**
 
----
 
 ## 🛠 Tech Stack
 
@@ -16,30 +15,43 @@ This project demonstrates how data can support business decisions in inventory m
 - Analysis: SQL, Python (Pandas)
 - Visualization: Power BI
 - Version Control: GitHub
+
+
 ## 📈 Key Business Metrics (KPIs)
 
-- Total Revenue: Total sales generated from all products.
-- Gross Profit: Revenue minus estimated product costs.
-- Margin Percentage: Profitability efficiency by product.
-- Inventory Risk: Identification of products with low stock levels.
+- **Total Revenue:** Total sales generated from all products
+- **Gross Profit:** Revenue minus estimated product costs
+- **Margin Percentage:** Profitability efficiency by product
+- **Inventory Risk:** Identification of products with low stock levels
+
+
 ## 🔍 Key Business Insights
 
-- Gaming laptops generate the majority of total profit.
-- Accessories show higher margin percentages but lower sales volume.
-- Revenue is concentrated in a small number of products, increasing operational risk.
-- Pricing optimization could increase overall profitability.
+- **Gaming laptops generate the majority of total profit**
+- Accessories show **high margins but lower sales volume**
+- Revenue is concentrated in a **small number of products**, increasing operational risk
+- Pricing optimization could significantly increase overall profitability
+
+
 ## 📊 Executive Dashboard
 
 ### Inventory Overview
+
 ![Inventory Overview](images/dashboard_overview.png)
 
+
 ### Sales Trends & Stock Analysis
+
 ![Sales Trends](images/dashboard_trends.png)
 
 ![Critical Stock](images/dashboard_details.png)
 
+
 ### Project Preview
+
 ![Project Preview](images/inventory_dashboard_preview.png)
+
+
 ## 📂 Project Structure
 
 data/        -> Raw datasets  
@@ -57,19 +69,20 @@ Key metrics were validated across multiple tools to ensure consistency:
 - Excel
 - Power BI
 
+
 Validation scripts available in:
 
 checks/data_validation.md
+
 ## 💰 Business Impact Analysis
 
-This project includes an estimation of potential profit improvement opportunities based on margin optimization.
+This project includes an estimation of **potential profit improvement opportunities** based on margin optimization.
 
-Products with margin below 40% represent opportunities for pricing or cost optimization.
+Products with margin below **40%** represent opportunities for pricing or cost optimization.
 
 Detailed analysis available in:
 
 analysis/business_impact.md
-## 📬 Contact
 
 ## 📬 Contact
 
