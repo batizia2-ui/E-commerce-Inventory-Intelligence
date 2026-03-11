@@ -1,30 +1,86 @@
-# E-commerce Inventory Intelligence
+# E-commerce Inventory & Profitability Intelligence
 
 ## 📊 Project Overview
-This project focuses on analyzing sales and inventory data for a technology-based e-commerce business specializing in laptops and workstations. The goal is to optimize stock management and identify high-margin products.
 
-## 🛠️ Tech Stack
-* **Language:** Python 3.x
-* **Libraries:** Pandas, Matplotlib, Seaborn
-* **Database:** SQLite / CSV Datasets
+This project analyzes sales and inventory data from a technology-focused e-commerce business specializing in laptops and workstations.
 
+The goal is to identify profit drivers, optimize pricing strategies, and detect inventory risks using data analysis tools.
+
+This project demonstrates how data can support business decisions in inventory management, profitability optimization, and product strategy.
+
+---
+
+## 🛠 Tech Stack
+
+- Data Cleaning: Power Query (Excel)
+- Analysis: SQL, Python (Pandas)
+- Visualization: Power BI
+- Version Control: GitHub
 ## 📈 Key Business Metrics (KPIs)
-* **Total Revenue:** Total sales volume in USD.
-* **Gross Profit Margin:** Efficiency of pricing vs. cost.
-* **Inventory Turnover:** Analysis of stock movement.
 
-## 📂 Project Structure
-* `data/`: Raw datasets (CSV).
-* `notebooks/`: Detailed data analysis and visualization.
-* `scripts/`: Python automation for KPI calculation.
-* `images/`: Dashboard previews and charts.
-## 🖼️ Visual Insights
-### Executive Dashboard Overview
+- Total Revenue: Total sales generated from all products.
+- Gross Profit: Revenue minus estimated product costs.
+- Margin Percentage: Profitability efficiency by product.
+- Inventory Risk: Identification of products with low stock levels.
+## 🔍 Key Business Insights
+
+- Gaming laptops generate the majority of total profit.
+- Accessories show higher margin percentages but lower sales volume.
+- Revenue is concentrated in a small number of products, increasing operational risk.
+- Pricing optimization could increase overall profitability.
+## 📊 Executive Dashboard
+
+### Inventory Overview
 ![Inventory Overview](images/dashboard_overview.png)
 
 ### Sales Trends & Stock Analysis
 ![Sales Trends](images/dashboard_trends.png)
+
 ![Critical Stock](images/dashboard_details.png)
 
 ### Project Preview
 ![Project Preview](images/inventory_dashboard_preview.png)
+## 📂 Project Structure
+
+data/        -> Raw datasets  
+notebooks/   -> Exploratory data analysis  
+scripts/     -> Python automation scripts  
+images/      -> Dashboard visualizations  
+analysis/    -> Business impact analysis  
+checks/      -> Data validation checks  
+## 🔎 Data Validation
+
+Key metrics were validated across multiple tools to ensure consistency:
+
+- SQL
+- Python (Pandas)
+- Excel
+- Power BI
+
+Validation scripts available in:
+
+checks/data_validation.md
+## 💰 Business Impact Analysis
+
+This project includes an estimation of potential profit improvement opportunities based on margin optimization.
+
+Products with margin below 40% represent opportunities for pricing or cost optimization.
+
+Detailed analysis available in:
+
+analysis/business_impact.md
+## 📬 Contact
+
+## 📬 Contact
+
+**Basilia del Pozo**  
+Junior Data Analyst (in training)
+
+📂 GitHub  
+https://n9.cl/5ipu3q
+
+💼 LinkedIn  
+https://n9.cl/6rwzl
+
+✉️ Email  
+batizia2@gmail.com
