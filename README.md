@@ -47,10 +47,6 @@ This project demonstrates how data can support **business decisions in inventory
 ![Critical Stock](images/dashboard_details.png)
 
 
-### Project Preview
-
-![Project Preview](images/inventory_dashboard_preview.png)
-
 
 ## 📂 Project Structure
 
@@ -60,7 +56,9 @@ scripts/     -> Python automation scripts
 images/      -> Dashboard visualizations  
 analysis/    -> Business impact analysis  
 checks/      -> Data validation checks  
+
 ## 🔎 Data Validation
+
 
 Key metrics were validated across multiple tools to ensure consistency:
 
