@@ -56,18 +56,14 @@ This project demonstrates how data can support **business decisions in inventory
 
 ## 🔎 Data Validation
 
-
 Key metrics were validated across multiple tools to ensure consistency:
-
 - SQL
 - Python (Pandas)
 - Excel
 - Power BI
 
-
-Validation scripts available in:
-
-checks/data_validation.md
+Validation scripts available in: 
+[checks/data_validation.md](./checks/data_validation.md)
 
 ## 💰 Business Impact Analysis
 
@@ -75,9 +71,8 @@ This project includes an estimation of **potential profit improvement opportunit
 
 Products with margin below **40%** represent opportunities for pricing or cost optimization.
 
-Detailed analysis available in:
-
-analysis/business_impact.md
+Detailed analysis available in: 
+[analysis/business_impact.md](./analysis/business_impact.md)
 
 ## 📬 Contact
 
