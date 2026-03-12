@@ -1,3 +1,10 @@
+/* ========================================================
+   PROJECT: E-commerce Inventory Intelligence
+   FILE: validation_queries.sql
+   PURPOSE: Cross-validation of key business metrics
+   AUTHOR: Basilia del Pozo
+   ======================================================== */
+
 -- 1. Total Revenue Validation ($10,955)
 -- Goal: Confirm that the sum of all sales matches the dashboard total.
 SELECT 
