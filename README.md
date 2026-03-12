@@ -46,12 +46,13 @@ This project demonstrates how data can support **business decisions in inventory
 
 ## 📂 Project Structure
 
-data/        -> Raw datasets  
-notebooks/   -> Exploratory data analysis  
-scripts/     -> Python automation scripts  
-images/      -> Dashboard visualizations  
-analysis/    -> Business impact analysis  
-checks/      -> Data validation checks  
+- [data/](./data/) -> Raw datasets & [Data Dictionary](./data/dictionary.md)
+- [sql_queries/](./sql_queries/) -> SQL validation scripts
+- [notebooks/](./notebooks/) -> Exploratory data analysis
+- [scripts/](./scripts/) -> Python automation scripts
+- [images/](./images/) -> Dashboard visualizations
+- [analysis/](./analysis/) -> Business impact analysis
+- [checks/](./checks/) -> Data validation checks
 
 ## 🔎 Data Validation
 
