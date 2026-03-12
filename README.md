@@ -36,15 +36,11 @@ This project demonstrates how data can support **business decisions in inventory
 ## 📊 Executive Dashboard
 
 ### Inventory Overview
-
-![Inventory Overview](images/dashboard_overview.png)
-
+![Inventory Overview](https://raw.githubusercontent.com/batizia2-ui/E-commerce-Inventory-Intelligence/main/images/dashboard_overview.png)
 
 ### Sales Trends & Stock Analysis
-
-![Sales Trends](images/dashboard_trends.png)
-
-![Critical Stock](images/dashboard_details.png)
+![Sales Trends](https://raw.githubusercontent.com/batizia2-ui/E-commerce-Inventory-Intelligence/main/images/dashboard_trends.png)
+![Critical Stock](https://raw.githubusercontent.com/batizia2-ui/E-commerce-Inventory-Intelligence/main/images/dashboard_details.png)
 
 
 
