@@ -13,7 +13,7 @@ def clean_currency(value):
 
 def run_analysis():
     # Adjusted path to find your file in the analysis folder
-    file_path = 'analysis/laptop_inventory.csv'
+    file_path = file_path = '../analysis/laptop_inventory.csv'
     
     if not os.path.exists(file_path):
         print(f"Error: File not found at {file_path}")
