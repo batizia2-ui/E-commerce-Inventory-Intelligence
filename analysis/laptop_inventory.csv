@@ -1,0 +1,10 @@
+﻿model,specs, market_price , retail_new_price ,savings_pct
+Dell XPS 13 9345,"Snapdragon X Elite, 16GB RAM, 1TB SSD, OLED Touch"," $18,700.00 "," $34,999.00 ",47%
+Dell Precision 7680,"Intel i7-13850HX, 32GB RAM, 1TB SSD, RTX 2000 Ada"," $33,500.00 "," $68,500.00 ",51%
+HP ZBook Fury 16 G10,"Intel i7-13700HX, 32GB RAM, 1TB SSD, RTX A1000"," $26,000.00 "," $55,000.00 ",53%
+Lenovo ThinkPad P16s G2,"Intel i7-1360P, 32GB RAM, 512GB SSD, RTX A500"," $19,500.00 "," $42,000.00 ",54%
+Asus ROG Zephyrus G16,"Intel i9-13900H, 16GB RAM, 1TB SSD, RTX 4070"," $30,500.00 "," $52,000.00 ",41%
+Dell Latitude 7440,"Intel i7-1365U, 16GB RAM, 512GB SSD"," $13,500.00 "," $28,500.00 ",53%
+Microsoft Surface Pro 9,"Intel i7-1255U, 16GB RAM, 256GB SSD"," $14,000.00 "," $26,500.00 ",47%
+MacBook Pro 14 (M3 Pro),"Chip M3 Pro, 18GB RAM, 512GB SSD, 14-core GPU"," $35,500.00 "," $48,500.00 ",27%
+
